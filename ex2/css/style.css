@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+header,main,footer,nav,aside, section,div{
+    display: block;
+}
+
+body {
+    background-color: #171932;
+}
+
+/* ---------The section witn the header -------------- */
+
+
+
+#logo{
+    display: block;
+    background: url(../images/Item2.png) no-repeat left center ;
+    height: 48px;
+    margin-left:16px;
+    margin-top: 20px;
+}
+
+
+
+#logo span {
+/* Shenkar Tours */
+
+display: block;
+/* height: 40px; */
+margin-left: 80px;
+margin-top: 20px;
+font-family: Carter One;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+/* line-height: 40px; */
+/* identical to box height, or 100% */
+/* align-items: center; */
+text-transform: uppercase;
+color: #FFFFFF;    
+}
+
+/* ---------======= The main (index) page ------------------ */
+
+
+#backgraud_picture_main_page {
+    margin-left: 0px;
+    margin-top: 36px;
+}
+
+
+/* ---------======= The head1 class to both of the pages ------------------ */
+
+a{
+    text-decoration: none;
+}
+.main-head1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+    display: block;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.main-head1 h1 {
+    margin-left: 16px;
+}
+.main-head1 span {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+
+/* ---------======= The head1 on  the index page------------------ */
+
+
+#head1-index-page {
+    margin-top: 11px;
+}
+
+#head1-index-page span {
+    margin-left: 18px;
+}
+
+
+
+/* -----The section witn small images on the index page ---- */
+
+
+#images-line-indexpage
+{
+    display: block;
+    /* margin-left: 16px; */
+    /* padding-left: 16px; */
+    margin-top: 18px;
+}
+
+#images-line-indexpage img{
+
+    margin-top: 18px;
+ 
+    vertical-align: bottom;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3); */
+    /* background-color: #9a51e0; */
+
+}
+
+#images-line-indexpage article {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    padding-left: 16px;
+    /* background-color: #9a51e0; */
+}
+
+#images-line-indexpage section {
+  
+display:block;
+height: 60px;
+width: 270px;
+padding-left: 16px;
+/* box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3); */
+background-color: #9a51e0;
+
+
+/* font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #FFFFFF; */
+}
+
+
+.into-content-page{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+/* --------- ----------card icons------------ -------------- */
+
+.rocket{
+    margin-left: 19px;
+}
+
+.tent {
+    margin-left: 10px ;
+}
+
+.cloud {
+    margin-left: 10px ;
+}
+
+.set_wh_gear{
+    margin-left: 20px ;
+}
+
+/* #images-line-indexpage section span {
+    vertical-align: bottom;
+} */
+
+
+
+/* --------- ------------------------- -------------- */
+/* ---------------      PAGE 2    ------------------- */
+/* --------- ------------------------- -------------- */
+
+
+
+
+
+/* ---------The section witn the fotos -------------- */
+
+#fotos-section{
+    height: 316;
+    margin-top: 36px;
+}
+.smallfoto
+{
+
+/* margin-top: 73px; */
+border-radius: 10px;
+vertical-align:middle;
+}
+   
+#foto1 {
+    margin-left : 17px;
+}
+
+#foto2 {
+
+margin-left: 20px;
+/* margin-top: 36px; */
+vertical-align:middle;
+background: linear-gradient(0deg, rgba(23, 25, 50, 0.4), rgba(23, 25, 50, 0.4));
+border: 2px solid rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+}
+
+#foto3 {
+    margin-left: 20px;
+}
+
+#foto4 {
+    margin-left: 20px;
+}
+
+
+/* ---------======= The head1 on  the  page 2 ------------------ */
+
+
+
+#head1-page2 span {
+    margin-left: 16px;
+}
+
+
+/* ---------The section witn the navigator -------------- */
+nav{
+    /* margin-left: 17px; */
+    margin-top: 23px;
+}
+
+nav a {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
+
+/* ---------The section with the first pparagrahp -------------- */
+
+#first{
+
+margin-top: 50px;
+margin-left: 17;
+
+width: 367px;
+/* height: 132px; */
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+
+/* ---------The section witn the Unordered list -------------- */
+
+#list1-of-links {
+    margin-top: 30px; 
+}
+
+
+
+#list1-of-links a{
+    display: block;
+    background: url(../images/Item2.png) no-repeat left center ;
+    height: 48px;
+    margin-left:16px;
+    margin-top: 8px;
+}
+
+#list1-of-links a span {
+
+/* vertical-align: middle; */
+margin-left: 80px ;    
+padding-top: 16px;
+width: 87px;
+height: 14px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+display: block;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+/* ---------The section witn the text paragraphs -------------- */
+
+#piskaot h2{
+
+width: 206px;
+height: 43px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+display: block;
+align-items: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+#titel_paragraph1
+{
+    margin-left: 16px;
+    margin-top:  45px;
+}
+
+#titel_paragraph2
+{
+    margin-left: 15px;
+    margin-top:  71px;
+}
+
+#titel_paragraph3
+{
+    margin-left: 16px;
+    margin-top: 80px;   
+}
+
+#titel_paragraph4
+{
+    margin-left: 15px;
+    margin-top:  81px;   
+}
+
+#piskaot p{
+
+display: block;
+margin-top:  16px;
+width: 367px;
+height: 132px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+
+
+
+#paragraph1
+{
+    margin-left: 17px;
+    /* margin-top:  868px; */
+}
+
+#paragraph2
+{
+    margin-left: 16px;
+    /* margin-top: 1130px; */
+}
+
+#paragraph3
+{
+    margin-left: 17px;
+    /* margin-top: 1401px; */
+}
+
+#paragraph4
+{
+    margin-left: 16px;
+    /* margin-top:  1673px; */
+}
+
+
+
+/* -----------------footer (from both of the pages) -------------- */
+
+
+
+/* 9a51e0 footer color(bg)*/
+
+#footer-page-1{
+    margin-top: 69px;
+}
+
+#footer-page-2{
+    margin-top: 51px;
+}
+
+footer {
+    background-color: #9a51e0;
+    height: 48px;
+}
+
+
+
+footer a img{
+    filter: brightness(80%);
+    vertical-align: middle;
+}
+
+
+#twiter {
+    margin-left:20px ;
+    margin-top: 17px;
+}
+
+#linkedin {
+    margin-left: 19px;
+    margin-top: 15px;
+}
+
+#google {
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+#facebook {
+    margin-left:18px ;
+    margin-top: 16px;
+}
+
